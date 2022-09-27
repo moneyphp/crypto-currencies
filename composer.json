@@ -1,0 +1,23 @@
+{
+  "name": "moneyphp/crypto-currencies",
+  "description": "Provides up-to-date list of cryptocurrencies retrieved from various crypto exchanges.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Serhiy Lunak",
+      "email": "serhiy.lunak@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MoneyPHP\\CryptoCurrencies\\": "src/"
+    }
+  },
+  "scripts": {
+    "fetch-update": "php bin/fetch-update.php"
+  }
+}
