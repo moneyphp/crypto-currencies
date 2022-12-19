@@ -34,7 +34,7 @@ class BinanceFetcher implements Fetcher
 
         $symbols = [];
         foreach ($json->symbols as $symbol) {
-            if ($symbol->isSpotTradingAllowed && $symbol->status === 'TRADING') {
+            if ($symbol->isSpotTradingAllowed && $symbol->status === 'TRADING' && ! $this->isFiatCurrency($symbol)) {
                 if (! in_array($symbol->baseAsset, $symbols)) {
                     $symbols[] = $symbol->baseAsset;
                     $cryptocurrencies[] = new Cryptocurrency($symbol->baseAsset);
@@ -48,5 +48,25 @@ class BinanceFetcher implements Fetcher
         }
 
         return $cryptocurrencies;
+    }
+
+    private function isFiatCurrency($symbol): bool
+    {
+        $fiatCurrencies = array(
+            'AUD',
+            'BRL',
+            'ERN',
+            'EUR',
+            'GBP',
+            'NGN',
+            'PLN',
+            'RON',
+            'RUB',
+            'TRY',
+            'UAH',
+            'ZAR',
+        );
+
+        return in_array($symbol->baseAsset, $fiatCurrencies) || in_array($symbol->quoteAsset, $fiatCurrencies);
     }
 }
