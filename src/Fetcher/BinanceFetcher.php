@@ -9,6 +9,21 @@ use MoneyPHP\CryptoCurrencies\Fetcher;
 
 class BinanceFetcher implements Fetcher
 {
+    const FIAT_CURRENCIES = array(
+        'AUD',
+        'BRL',
+        'ERN',
+        'EUR',
+        'GBP',
+        'NGN',
+        'PLN',
+        'RON',
+        'RUB',
+        'TRY',
+        'UAH',
+        'ZAR',
+    );
+
     private string $url;
 
     public function __construct(string $url)
@@ -52,21 +67,6 @@ class BinanceFetcher implements Fetcher
 
     private function isFiatCurrency($symbol): bool
     {
-        $fiatCurrencies = array(
-            'AUD',
-            'BRL',
-            'ERN',
-            'EUR',
-            'GBP',
-            'NGN',
-            'PLN',
-            'RON',
-            'RUB',
-            'TRY',
-            'UAH',
-            'ZAR',
-        );
-
-        return in_array($symbol->baseAsset, $fiatCurrencies) || in_array($symbol->quoteAsset, $fiatCurrencies);
+        return in_array($symbol->baseAsset, self::FIAT_CURRENCIES) || in_array($symbol->quoteAsset, self::FIAT_CURRENCIES);
     }
 }
