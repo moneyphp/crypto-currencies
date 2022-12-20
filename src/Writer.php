@@ -1,6 +1,6 @@
 <?php
 
-namespace MoneyPHP\Cryptocurrencies;
+namespace MoneyPHP\CryptoCurrencies;
 
 final class Writer
 {

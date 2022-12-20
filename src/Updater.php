@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MoneyPHP\Cryptocurrencies;
+namespace MoneyPHP\CryptoCurrencies;
 
 final class Updater
 {
