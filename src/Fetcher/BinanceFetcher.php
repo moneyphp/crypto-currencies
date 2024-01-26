@@ -9,7 +9,7 @@ use MoneyPHP\CryptoCurrencies\Fetcher;
 
 class BinanceFetcher implements Fetcher
 {
-    const FIAT_CURRENCIES = array(
+    public const FIAT_CURRENCIES = [
         'AUD',
         'BRL',
         'ERN',
@@ -22,14 +22,10 @@ class BinanceFetcher implements Fetcher
         'TRY',
         'UAH',
         'ZAR',
-    );
+    ];
 
-    private string $url;
-
-    public function __construct(string $url)
-    {
-        $this->url = $url;
-    }
+    public function __construct(private string $url)
+    {}
 
     /*
      * @inheritDoc

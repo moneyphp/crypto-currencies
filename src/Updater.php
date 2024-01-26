@@ -17,7 +17,6 @@ final class Updater
     }
 
     /**
-     * @param Fetcher $fetcher
      * @return Cryptocurrency[]
      */
     public function fetchWith(Fetcher $fetcher): array
@@ -30,11 +29,7 @@ final class Updater
     }
 
     /**
-     * @param Writer $writer
      * @param Cryptocurrency[] $currencies
-     * @param string $filename
-     * @param Serializer $serializer
-     * @return void
      */
     public function writeWith(Writer $writer, array $currencies, string $filename, Serializer $serializer): void
     {
