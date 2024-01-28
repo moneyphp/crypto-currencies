@@ -6,9 +6,6 @@ final class Writer
 {
     /**
      * @param Cryptocurrency[] $currencies
-     * @param string $filename
-     * @param Serializer $serializer
-     * @return void
      */
     public function write(array $currencies, string $filename, Serializer $serializer): void
     {
