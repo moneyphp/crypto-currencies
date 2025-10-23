@@ -1,4 +1,9 @@
 <?php return array (
+  '0G' => 
+  array (
+    'symbol' => '0G',
+    'minorUnit' => 8,
+  ),
   '1000CAT' => 
   array (
     'symbol' => '1000CAT',
@@ -24,9 +29,19 @@
     'symbol' => '1MBABYDOGE',
     'minorUnit' => 8,
   ),
+  '2Z' => 
+  array (
+    'symbol' => '2Z',
+    'minorUnit' => 8,
+  ),
   'A' => 
   array (
     'symbol' => 'A',
+    'minorUnit' => 8,
+  ),
+  'A2Z' => 
+  array (
+    'symbol' => 'A2Z',
     'minorUnit' => 8,
   ),
   'AAVE' => 
@@ -114,11 +129,6 @@
     'symbol' => 'ALICE',
     'minorUnit' => 8,
   ),
-  'ALPHA' => 
-  array (
-    'symbol' => 'ALPHA',
-    'minorUnit' => 8,
-  ),
   'ALPINE' => 
   array (
     'symbol' => 'ALPINE',
@@ -199,6 +209,11 @@
     'symbol' => 'ASR',
     'minorUnit' => 8,
   ),
+  'ASTER' => 
+  array (
+    'symbol' => 'ASTER',
+    'minorUnit' => 8,
+  ),
   'ASTR' => 
   array (
     'symbol' => 'ASTR',
@@ -239,6 +254,11 @@
     'symbol' => 'AVAX',
     'minorUnit' => 8,
   ),
+  'AVNT' => 
+  array (
+    'symbol' => 'AVNT',
+    'minorUnit' => 8,
+  ),
   'AWE' => 
   array (
     'symbol' => 'AWE',
@@ -259,11 +279,6 @@
     'symbol' => 'BABY',
     'minorUnit' => 8,
   ),
-  'BAKE' => 
-  array (
-    'symbol' => 'BAKE',
-    'minorUnit' => 8,
-  ),
   'BANANA' => 
   array (
     'symbol' => 'BANANA',
@@ -282,6 +297,11 @@
   'BAR' => 
   array (
     'symbol' => 'BAR',
+    'minorUnit' => 8,
+  ),
+  'BARD' => 
+  array (
+    'symbol' => 'BARD',
     'minorUnit' => 8,
   ),
   'BAT' => 
@@ -312,6 +332,11 @@
   'BERA' => 
   array (
     'symbol' => 'BERA',
+    'minorUnit' => 8,
+  ),
+  'BFUSD' => 
+  array (
+    'symbol' => 'BFUSD',
     'minorUnit' => 8,
   ),
   'BICO' => 
@@ -374,11 +399,6 @@
     'symbol' => 'BROCCOLI714',
     'minorUnit' => 8,
   ),
-  'BSW' => 
-  array (
-    'symbol' => 'BSW',
-    'minorUnit' => 8,
-  ),
   'BTC' => 
   array (
     'symbol' => 'BTC',
@@ -387,6 +407,11 @@
   'BTTC' => 
   array (
     'symbol' => 'BTTC',
+    'minorUnit' => 8,
+  ),
+  'C' => 
+  array (
+    'symbol' => 'C',
     'minorUnit' => 8,
   ),
   'C98' => 
@@ -589,6 +614,11 @@
     'symbol' => 'DOGS',
     'minorUnit' => 8,
   ),
+  'DOLO' => 
+  array (
+    'symbol' => 'DOLO',
+    'minorUnit' => 8,
+  ),
   'DOT' => 
   array (
     'symbol' => 'DOT',
@@ -607,6 +637,11 @@
   'DYM' => 
   array (
     'symbol' => 'DYM',
+    'minorUnit' => 8,
+  ),
+  'EDEN' => 
+  array (
+    'symbol' => 'EDEN',
     'minorUnit' => 8,
   ),
   'EDU' => 
@@ -639,9 +674,19 @@
     'symbol' => 'ENS',
     'minorUnit' => 8,
   ),
+  'ENSO' => 
+  array (
+    'symbol' => 'ENSO',
+    'minorUnit' => 8,
+  ),
   'EPIC' => 
   array (
     'symbol' => 'EPIC',
+    'minorUnit' => 8,
+  ),
+  'ERA' => 
+  array (
+    'symbol' => 'ERA',
     'minorUnit' => 8,
   ),
   'ETC' => 
@@ -657,6 +702,11 @@
   'ETHFI' => 
   array (
     'symbol' => 'ETHFI',
+    'minorUnit' => 8,
+  ),
+  'EUL' => 
+  array (
+    'symbol' => 'EUL',
     'minorUnit' => 8,
   ),
   'EURI' => 
@@ -677,6 +727,11 @@
   'FET' => 
   array (
     'symbol' => 'FET',
+    'minorUnit' => 8,
+  ),
+  'FF' => 
+  array (
+    'symbol' => 'FF',
     'minorUnit' => 8,
   ),
   'FIDA' => 
@@ -829,14 +884,14 @@
     'symbol' => 'HEI',
     'minorUnit' => 8,
   ),
+  'HEMI' => 
+  array (
+    'symbol' => 'HEMI',
+    'minorUnit' => 8,
+  ),
   'HFT' => 
   array (
     'symbol' => 'HFT',
-    'minorUnit' => 8,
-  ),
-  'HIFI' => 
-  array (
-    'symbol' => 'HIFI',
     'minorUnit' => 8,
   ),
   'HIGH' => 
@@ -852,6 +907,16 @@
   'HMSTR' => 
   array (
     'symbol' => 'HMSTR',
+    'minorUnit' => 8,
+  ),
+  'HOLO' => 
+  array (
+    'symbol' => 'HOLO',
+    'minorUnit' => 8,
+  ),
+  'HOME' => 
+  array (
+    'symbol' => 'HOME',
     'minorUnit' => 8,
   ),
   'HOOK' => 
@@ -999,11 +1064,6 @@
     'symbol' => 'KERNEL',
     'minorUnit' => 8,
   ),
-  'KMD' => 
-  array (
-    'symbol' => 'KMD',
-    'minorUnit' => 8,
-  ),
   'KMNO' => 
   array (
     'symbol' => 'KMNO',
@@ -1017,6 +1077,11 @@
   'KSM' => 
   array (
     'symbol' => 'KSM',
+    'minorUnit' => 8,
+  ),
+  'LA' => 
+  array (
+    'symbol' => 'LA',
     'minorUnit' => 8,
   ),
   'LAYER' => 
@@ -1034,9 +1099,9 @@
     'symbol' => 'LDO',
     'minorUnit' => 8,
   ),
-  'LEVER' => 
+  'LINEA' => 
   array (
-    'symbol' => 'LEVER',
+    'symbol' => 'LINEA',
     'minorUnit' => 8,
   ),
   'LINK' => 
@@ -1047,11 +1112,6 @@
   'LISTA' => 
   array (
     'symbol' => 'LISTA',
-    'minorUnit' => 8,
-  ),
-  'LOKA' => 
-  array (
-    'symbol' => 'LOKA',
     'minorUnit' => 8,
   ),
   'LPT' => 
@@ -1077,11 +1137,6 @@
   'LTC' => 
   array (
     'symbol' => 'LTC',
-    'minorUnit' => 8,
-  ),
-  'LTO' => 
-  array (
-    'symbol' => 'LTO',
     'minorUnit' => 8,
   ),
   'LUMIA' => 
@@ -1159,14 +1214,24 @@
     'symbol' => 'MINA',
     'minorUnit' => 8,
   ),
-  'MKR' => 
+  'MIRA' => 
   array (
-    'symbol' => 'MKR',
+    'symbol' => 'MIRA',
+    'minorUnit' => 8,
+  ),
+  'MITO' => 
+  array (
+    'symbol' => 'MITO',
     'minorUnit' => 8,
   ),
   'MLN' => 
   array (
     'symbol' => 'MLN',
+    'minorUnit' => 8,
+  ),
+  'MORPHO' => 
+  array (
+    'symbol' => 'MORPHO',
     'minorUnit' => 8,
   ),
   'MOVE' => 
@@ -1209,6 +1274,11 @@
     'symbol' => 'NEO',
     'minorUnit' => 8,
   ),
+  'NEWT' => 
+  array (
+    'symbol' => 'NEWT',
+    'minorUnit' => 8,
+  ),
   'NEXO' => 
   array (
     'symbol' => 'NEXO',
@@ -1232,6 +1302,11 @@
   'NMR' => 
   array (
     'symbol' => 'NMR',
+    'minorUnit' => 8,
+  ),
+  'NOM' => 
+  array (
+    'symbol' => 'NOM',
     'minorUnit' => 8,
   ),
   'NOT' => 
@@ -1264,11 +1339,6 @@
     'symbol' => 'OM',
     'minorUnit' => 8,
   ),
-  'OMNI' => 
-  array (
-    'symbol' => 'OMNI',
-    'minorUnit' => 8,
-  ),
   'ONDO' => 
   array (
     'symbol' => 'ONDO',
@@ -1292,6 +1362,11 @@
   'OP' => 
   array (
     'symbol' => 'OP',
+    'minorUnit' => 8,
+  ),
+  'OPEN' => 
+  array (
+    'symbol' => 'OPEN',
     'minorUnit' => 8,
   ),
   'ORCA' => 
@@ -1369,6 +1444,11 @@
     'symbol' => 'PIXEL',
     'minorUnit' => 8,
   ),
+  'PLUME' => 
+  array (
+    'symbol' => 'PLUME',
+    'minorUnit' => 8,
+  ),
   'PNUT' => 
   array (
     'symbol' => 'PNUT',
@@ -1409,9 +1489,19 @@
     'symbol' => 'PROM',
     'minorUnit' => 8,
   ),
+  'PROVE' => 
+  array (
+    'symbol' => 'PROVE',
+    'minorUnit' => 8,
+  ),
   'PSG' => 
   array (
     'symbol' => 'PSG',
+    'minorUnit' => 8,
+  ),
+  'PUMP' => 
+  array (
+    'symbol' => 'PUMP',
     'minorUnit' => 8,
   ),
   'PUNDIX' => 
@@ -1494,6 +1584,11 @@
     'symbol' => 'REQ',
     'minorUnit' => 8,
   ),
+  'RESOLV' => 
+  array (
+    'symbol' => 'RESOLV',
+    'minorUnit' => 8,
+  ),
   'REZ' => 
   array (
     'symbol' => 'REZ',
@@ -1547,6 +1642,11 @@
   'SAGA' => 
   array (
     'symbol' => 'SAGA',
+    'minorUnit' => 8,
+  ),
+  'SAHARA' => 
+  array (
+    'symbol' => 'SAHARA',
     'minorUnit' => 8,
   ),
   'SAND' => 
@@ -1604,9 +1704,9 @@
     'symbol' => 'SKL',
     'minorUnit' => 8,
   ),
-  'SLF' => 
+  'SKY' => 
   array (
-    'symbol' => 'SLF',
+    'symbol' => 'SKY',
     'minorUnit' => 8,
   ),
   'SLP' => 
@@ -1629,6 +1729,11 @@
     'symbol' => 'SOLV',
     'minorUnit' => 8,
   ),
+  'SOMI' => 
+  array (
+    'symbol' => 'SOMI',
+    'minorUnit' => 8,
+  ),
   'SOPH' => 
   array (
     'symbol' => 'SOPH',
@@ -1637,6 +1742,11 @@
   'SPELL' => 
   array (
     'symbol' => 'SPELL',
+    'minorUnit' => 8,
+  ),
+  'SPK' => 
+  array (
+    'symbol' => 'SPK',
     'minorUnit' => 8,
   ),
   'SSV' => 
@@ -1774,9 +1884,19 @@
     'symbol' => 'TON',
     'minorUnit' => 8,
   ),
+  'TOWNS' => 
+  array (
+    'symbol' => 'TOWNS',
+    'minorUnit' => 8,
+  ),
   'TRB' => 
   array (
     'symbol' => 'TRB',
+    'minorUnit' => 8,
+  ),
+  'TREE' => 
+  array (
+    'symbol' => 'TREE',
     'minorUnit' => 8,
   ),
   'TRU' => 
@@ -1802,6 +1922,11 @@
   'TURBO' => 
   array (
     'symbol' => 'TURBO',
+    'minorUnit' => 8,
+  ),
+  'TURTLE' => 
+  array (
+    'symbol' => 'TURTLE',
     'minorUnit' => 8,
   ),
   'TUSD' => 
@@ -1837,6 +1962,11 @@
   'USDC' => 
   array (
     'symbol' => 'USDC',
+    'minorUnit' => 8,
+  ),
+  'USDE' => 
+  array (
+    'symbol' => 'USDE',
     'minorUnit' => 8,
   ),
   'USDP' => 
@@ -1909,6 +2039,11 @@
     'symbol' => 'W',
     'minorUnit' => 8,
   ),
+  'WAL' => 
+  array (
+    'symbol' => 'WAL',
+    'minorUnit' => 8,
+  ),
   'WAN' => 
   array (
     'symbol' => 'WAN',
@@ -1949,6 +2084,11 @@
     'symbol' => 'WLD',
     'minorUnit' => 8,
   ),
+  'WLFI' => 
+  array (
+    'symbol' => 'WLFI',
+    'minorUnit' => 8,
+  ),
   'WOO' => 
   array (
     'symbol' => 'WOO',
@@ -1972,6 +2112,11 @@
   'XNO' => 
   array (
     'symbol' => 'XNO',
+    'minorUnit' => 8,
+  ),
+  'XPL' => 
+  array (
+    'symbol' => 'XPL',
     'minorUnit' => 8,
   ),
   'XRP' => 
@@ -1999,6 +2144,11 @@
     'symbol' => 'XVS',
     'minorUnit' => 8,
   ),
+  'YB' => 
+  array (
+    'symbol' => 'YB',
+    'minorUnit' => 8,
+  ),
   'YFI' => 
   array (
     'symbol' => 'YFI',
@@ -2007,6 +2157,11 @@
   'YGG' => 
   array (
     'symbol' => 'YGG',
+    'minorUnit' => 8,
+  ),
+  'ZBT' => 
+  array (
+    'symbol' => 'ZBT',
     'minorUnit' => 8,
   ),
   'ZEC' => 
@@ -2027,6 +2182,11 @@
   'ZK' => 
   array (
     'symbol' => 'ZK',
+    'minorUnit' => 8,
+  ),
+  'ZKC' => 
+  array (
+    'symbol' => 'ZKC',
     'minorUnit' => 8,
   ),
   'ZRO' => 
